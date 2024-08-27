@@ -16,13 +16,13 @@ public class Demo {
 	}
 	public static void main(String[] args) {
 
-		Test<String> names = getTest("Ram","Kunal","Aman","Roshni","Devika");
+		Test<String> names = getTest("Ram","Kunal","Aman","Roshni","Devika","Nikita");
 		
 		System.out.println("Hello");
 		
 		List<String> l = names.getNames("John","Michael");
 		
-		System.out.println(l);
+		System.out.println(l);// [Ram,Kunal,Aman,Roshni,Devika,Nikita]
 				
 		System.out.println("Terminated...");
 	}
